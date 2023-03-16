@@ -38,7 +38,6 @@ DO_COMPUTE = 'cpu'
 DO_IO = 'io'
 DO_IO_DONE = 'io_done'
 
-
 class scheduler:
     def __init__(self, process_switch_behavior, io_done_behavior, io_length):
         # keep set of instructions for each of the processes
